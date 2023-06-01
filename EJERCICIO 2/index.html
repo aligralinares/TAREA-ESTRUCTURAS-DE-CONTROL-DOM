@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/BOOTSTRAP/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/CSS/style.css">
+    <title>EJERCICIO 1</title>
+</head>
+<body>
+    <main class="container d-flex justify-content-evenly align-items-center">
+        <form style="width: 25rem;">
+            <div class="mb-3">
+                <h1>Datos del alumno</h1><br>
+                <label for="name" class="form-label">Nombre del alumno</label>
+                <input type="text" class="form-control" id="name">
+                <label for="carnet" class="form-label">Número de carnet</label>
+                <input type="text" class="form-control" id="carnet">
+                </div>
+            <div class="mb-3">
+                <h1>Ingresar notas</h1><br>
+                <label for="testScore" class="form-label">Examen</label>
+                <input type="number" class="form-control" id="testScore">
+                <label for="homeworkScore" class="form-label">Tareas</label>
+                <input type="number" class="form-control" id="homeworkScore">
+                <label for="attendanceScore" class="form-label">Asistencia</label>
+                <input type="number" class="form-control" id="attendanceScore">
+                <label for="researchScore" class="form-label">Investigacion</label>
+                <input type="number" class="form-control" id="researchScore">
+            </div>
+            <button type="submit" class="btn btn-primary" onclick="getScore()">Calcular</button>
+        </form>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

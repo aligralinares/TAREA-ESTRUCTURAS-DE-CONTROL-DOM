@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/BOOTSTRAP/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/CSS/style.css">
+    <title>EJERCICIO 2</title>
+</head>
+<body>
+    <main class="container d-flex justify-content-evenly align-items-center">
+        <form style="width: 25rem;">
+            <div class="mb-3">
+                <h1>Primera nota:</h1><br>
+                <label for="firstScore" class="form-label">Nota:</label>
+                <input type="number" class="form-control" id="firstScore">
+                <label for="firstWeighing" class="form-label">Ponderación</label>
+                <input type="number" class="form-control" id="firstWeighing">
+            </div>
+            <div class="mb-3">
+                <h1>Segunda nota:</h1><br>
+                <label for="secondtScore" class="form-label">Nota</label>
+                <input type="number" class="form-control" id="secondScore">
+                <label for="secondWeighing" class="form-label">Ponderación</label>
+                <input type="number" class="form-control" id="secondWeighing">
+            </div>
+            
+            <button type="submit" class="btn btn-primary" onclick="getScore()">Calcular</button>
+        </form>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

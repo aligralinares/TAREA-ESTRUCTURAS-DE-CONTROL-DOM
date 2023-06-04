@@ -12,20 +12,15 @@
     <main class="container d-flex justify-content-evenly align-items-center">
         <form style="width: 25rem;">
             <div class="mb-3">
-                <h1>Datos del trabajador</h1><br>
-                <label for="name" class="form-label">Nombre del trabajador</label>
-                <input type="text" class="form-control" id="name">
-                <label for="salary" class="form-label">Salario</label>
-                <input type="text" class="form-control" id="salary">
+                <h1>Seleccione un vehículo</h1><br>
                 <label for="category" class="form-label">Categoria</label>
                 <select class="form-select" id="categorySelect">
-                        <option value="A">A</option>
-                        <option value="B">B</option>
-                        <option value="C">C</option>
-                        <option value="D">D</option>
+                        <option value="FIESTA">FORD FIESTA</option>
+                        <option value="FOCUS">FORD FOCUS</option>
+                        <option value="ESCAPE">FORD ESCAPE</option>
                 </select>
             </div>
-            <button type="submit" class="btn btn-primary" onclick="calculateSalary()">Calcular</button>
+            <button type="submit" class="btn btn-primary" onclick="calculateDiscount()">Calcular</button>
         </form>
     </main>
     <script src="./script.js"></script>
